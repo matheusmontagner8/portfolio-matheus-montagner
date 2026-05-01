@@ -43,6 +43,31 @@ Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas na 
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **Algoritmo de Auditoria de Dados** |Um programa que analisa a consitência de dados financeiros, utilizando escopo global/loal para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-algoritmo-de-auditoria-de-dados/) |
+
+#### 🗃️ Fluxograma
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Engenharia de Soluções Lógicas** |Uma solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica. | [Ver Projeto](./engenharia-solucoes/) |
+
+#### 🗃️ Exercicio Teorico
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Modularização** |A arte da modularização. | [Ver Projeto](./modularizacao/) |
+
+#### 🗃️ Programação de Computadores
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Traduzindo Lógica para Python** |Traduzir o fluxograma em Python. | [Ver Projeto](./traduzindo-logica-python/) |
+
+#### 🗃️ Programação de Computadores
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Engenharia de Contexto e Lógica Física** |Aplicando os conceitos de Listas, Estruturas de Repetição (for, while), Estruturas de Decisão (if/else, match-case), Funções e Operadores Complexos na resolução de problemas do mundo real, exigindo coleta de dados manual e mapeamento espacial. | [Ver Projeto](./engenharia-contexto/) |
+
+#### 🗃️ Programação de Computadores
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Desenhando Emojis com Dados** |Criar um Emoji de 5x5 pixels. | [Ver Projeto](./desenhando-emojis/) |
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
