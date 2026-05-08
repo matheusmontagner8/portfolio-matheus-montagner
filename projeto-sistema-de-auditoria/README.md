@@ -32,7 +32,7 @@ Este projeto foi construído utilizando Python puro (Standard Library), com foco
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   [cd seu-repositorio](https://github.com/matheusmontagner8/portfolio-matheus-montagner/tree/main/projeto-sistema-de-auditoria)
+   (https://github.com/matheusmontagner8/portfolio-matheus-montagner/tree/main/projeto-sistema-de-auditoria)
    ```
 3. Execute o script principal:
    ```bash
