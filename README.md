@@ -52,6 +52,8 @@ Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas na 
 | **Engenharia de Contexto e Lógica Física** |Aplicando os conceitos de Listas, Estruturas de Repetição (for, while), Estruturas de Decisão (if/else, match-case), Funções e Operadores Complexos na resolução de problemas do mundo real, exigindo coleta de dados manual e mapeamento espacial. | [Ver Projeto](./engenharia-contexto/) |
 | :--- | :--- | :---: |
 | **Desenhando Emojis com Dados** |Criar um Emoji de 5x5 pixels. | [Ver Projeto](./desenhando-emojis/) | 
+| :--- | :--- | :---: |
+| **Sistema de Auditoria de Recursos Corporativos** | Criar um script em Python que calcule o orçamento total da empresa, mas com regras estritas de auditoria e flexibilidade de parâmetros.  [Ver Projeto](./projeto-sistema-de-auditoria/) |
 
  
 ---
