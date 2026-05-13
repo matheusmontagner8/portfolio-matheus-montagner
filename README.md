@@ -15,7 +15,7 @@ Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas na 
  
 * **Habilidades Técnicas:** VB.NET e Cache
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
-* **Experiência/Projetos Relevantes:** Atuo na Empresa Rhema System Empresarial, atendendo empresas do ramo de autopeças.
+* **Experiência/Projetos Relevantes:** Atuo na Empresa Rhema Assessoria Empresarial e Sistemas Ltda, atendendo empresas do ramo de autopeças.
  
 ---
  
