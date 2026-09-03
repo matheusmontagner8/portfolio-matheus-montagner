@@ -13,7 +13,7 @@
 ### 👨‍💻 Sobre
 Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas na Unicid. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em Software ERP e Interface de Usuário.
  
-* **Habilidades Técnicas:** VB.NET e Cache
+* **Habilidades Técnicas:** VB.NET, Cache e Power Bi
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
 * **Experiência/Projetos Relevantes:** Atuo na Empresa Rhema Assessoria Empresarial e Sistemas Ltda, atendendo empresas do ramo de autopeças.
  
