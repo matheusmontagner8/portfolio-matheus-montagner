@@ -6,7 +6,7 @@
 ## 📖 Sobre o Projeto
 Este projeto foi desenvolvido como parte da disciplina de [Nome da Disciplina] do curso de [Nome do Curso]. O objetivo do script é processar e calcular o orçamento de uma estrutura organizacional complexa (dicionários aninhados) de uma multinacional, aplicando regras de negócio dinâmicas e auditoria de execução.
  
-A solução foi arquitetada utilizando conceitos avançados de Python para garantir flexibilidade, performance e rastreabilidade.
+A solução foi arquitetada utilizando conceitos avançados de Python para garantir performance e rastreabilidade.
  
 ## 🚀 Funcionalidades
 - **Cálculo Hierárquico:** Varredura completa da estrutura corporativa, independentemente do nível de profundidade.
