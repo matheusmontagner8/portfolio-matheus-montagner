@@ -13,7 +13,7 @@ Revisão Manual: Detectado um desvio de segurança gravíssimo (5x acima do limi
 
 Valor não identificado: Tratamento de exceções de dados.
 
-🚀 Tecnologias Utilizadas
+🚀 Tecnologia Utilizada
 Linguagem: Python 3.x
 
 Conceitos Aplicados: Manipulação de tipos (float), funções com escopo global, estruturas condicionais compostas e entrada de dados dinâmica.
