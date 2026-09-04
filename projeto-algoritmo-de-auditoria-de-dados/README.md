@@ -9,7 +9,7 @@ Limite Liberado: A média está dentro dos parâmetros de segurança.
 
 Sistema em Quarentena: A média excedeu levemente o limite permitido.
 
-Revisão Manual: Detectado um desvio de segurança gravíssimo (5x acima do limite).
+Revisão Manual: Detectado um desvio de segurança gravíssimo.
 
 Valor não identificado: Tratamento de exceções de dados.
 
