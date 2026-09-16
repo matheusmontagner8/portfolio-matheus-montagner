@@ -14,7 +14,7 @@
 
 ## 👨‍💻 Sobre mim
 
-Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas na Unicid. Sou apaixonado por resolver problemas através da tecnologia, com foco em software ERP e interface de usuário.
+Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na Unicid. Sou apaixonado por resolver problemas através da tecnologia, com foco em software ERP e interface de usuário.
 
 - **Habilidades técnicas:** VB.NET, Caché e Power BI
 - **Habilidades socioemocionais:** trabalho em equipe, comunicação assertiva e pensamento crítico
