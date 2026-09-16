@@ -20,9 +20,7 @@ def analisar_vendas():
   global LIMITE_SEGURANCA
   LIMITE_SEGURANCA = float(input("Valor liberado pelo gerente: "))
 
-
 analisar_vendas()
-
 # Saída
 print("-"*40)
 print(f"Primeira venda: {venda1:.2f} | Tipo: {type(venda1)}")
