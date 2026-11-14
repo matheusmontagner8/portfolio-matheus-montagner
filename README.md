@@ -12,7 +12,7 @@
 
 ---
 
-## 👨‍💻 Sobre mim
+## Sobre mim
 
 Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na Unicid. Sou apaixonado por resolver problemas através da tecnologia, com foco em software ERP e interface de usuário.
 
@@ -22,7 +22,7 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
 
 ---
 
-## 🛠 Ferramentas e Tecnologias
+## Ferramentas e Tecnologias
 
 **Linguagens e ambientes**
 
@@ -44,7 +44,7 @@ Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na 
 
 ---
 
-## 📂 Portfólio de Projetos
+## Portfólio de Projetos
 
 ### Programação de Computadores
 
