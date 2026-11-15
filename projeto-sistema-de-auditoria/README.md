@@ -1,55 +1,61 @@
-# 🏢 Auditoria de Orçamentos Corporativos (Python)
- 
-[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/status-concluído-brightgreen.svg)]()
- 
-## 📖 Sobre o Projeto
-Este projeto foi desenvolvido como parte da disciplina de [Nome da Disciplina] do curso de [Nome do Curso]. O objetivo do script é processar e calcular o orçamento de uma estrutura organizacional complexa (dicionários aninhados) de uma multinacional, aplicando regras de negócio dinâmicas e auditoria de execução.
- 
-A solução foi arquitetada utilizando conceitos avançados de Python para garantir performance e rastreabilidade.
- 
-## 🚀 Funcionalidades
-- **Cálculo Hierárquico:** Varredura completa da estrutura corporativa, independentemente do nível de profundidade.
-- **Filtros Dinâmicos:** Capacidade de ignorar setores específicos e todos os seus subsetores na hora do cálculo financeiro.
-- **Conversão de Câmbio:** Suporte a parâmetros opcionais para conversão de moedas em tempo de execução.
-- **Sistema de Auditoria:** Monitoramento automatizado de tempo de execução e registro (logging) dos parâmetros utilizados na transação financeira.
- 
-## 🛠️ Tecnologias e Conceitos Aplicados
-Este projeto foi construído utilizando Python puro (Standard Library), com foco nos seguintes paradigmas e recursos:
-* **Funções Recursivas (Recursion):** Utilizadas para a navegação na árvore de dados (dicionários aninhados).
-* **Decorators:** Implementação do `@auditor` para injetar comportamentos de log e cronometragem sem modificar a lógica de negócios.
-* **Empacotamento de Argumentos (`*args` e `**kwargs`):** Utilizados tanto no decorator quanto na função principal para permitir a passagem dinâmica de departamentos a serem ignorados e taxas de câmbio.
- 
-## ⚙️ Como Executar
- 
-### Pré-requisitos
-* Python 3.8 ou superior instalado.
- 
-### Passo a Passo
-1. Clone este repositório:
-   ```bash
-   [(https://github.com/matheusmontagner8/portfolio-matheus-montagner)]
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   (https://github.com/matheusmontagner8/portfolio-matheus-montagner/tree/main/projeto-sistema-de-auditoria)
-   ```
-3. Execute o script principal:
-   ```bash
-   [(https://colab.research.google.com/drive/1vE9C6jfPbNGmW1Kz61EG6M7jFNO5Yg_A?usp=sharing)]
-   ```
- 
-## 🧠 Lógica e Estrutura do Código
-Breve explicação de como o código foi organizado:
-Para percorrer toda essa estrutura sem precisar saber quantos níveis existem, foi utilizada uma função recursiva chamada soma_recursiva. Sempre que a função encontra um dicionário, ela chama a si mesma novamente para continuar navegando pelos níveis internos. Quando encontra um número, o valor é somado ao total do orçamento.
+# Orçamento Corporativo com Recursão (Python)
 
-O decorator foi criado para adicionar funcionalidades extras sem que houvesse uma mudança que afetasse diretamente a função principal de cálculo. Ele foi acoplado antes da função calcular_orcamento. 
-* **Dados:** Os dados simulados da empresa foram estruturados em... `[explique a estrutura do seu dicionário]`.
- 
-## 👤 Autor
- 
-* **Matheus Montagner** * LinkedIn: [(https://www.linkedin.com/in/matheus-montagner-97ba8b214/)]
-* E-mail: [matheusmontagner8@gmail.com]
- 
----
-*Projeto acadêmico com foco na aplicação prática de conceitos avançados da linguagem Python.*
+Exercício da disciplina de Programação de Computadores (Análise e Desenvolvimento de Sistemas, Unicid).
+
+## O que o programa faz
+
+A estrutura de uma empresa fictícia fica guardada em **dicionários aninhados** (unidade → setor → área → orçamento em USD):
+
+```python
+empresa = {
+    "Matriz": {
+        "TI": {"Infraestrutura": 50000, "Desenvolvimento": 80000, "Seguranca": 30000},
+        "RH": {"Recrutamento": 20000, "Treinamento": 15000},
+        ...
+    },
+    "Filial": { ... }
+}
+```
+
+A função `calcular_orcamento()`:
+
+- soma todos os valores, em qualquer nível de profundidade;
+- ignora os setores informados (ex.: `"RH"`, `"Marketing"`), incluindo todas as áreas abaixo deles;
+- converte o total para outra moeda, se uma taxa de câmbio for informada.
+
+O decorator `@auditor` envolve a função e mostra quais setores foram ignorados, os parâmetros extras e o tempo de execução. Para isso, ele não precisa alterar o cálculo.
+
+## Conceitos praticados
+
+- **Recursão:** `soma_recursiva()` chama a si mesma sempre que encontra outro dicionário.
+- **Decorators:** `@auditor` adiciona registro e cronometragem.
+- **`*args` e `**kwargs`:** setores ignorados e opções de câmbio são passados em quantidade variável.
+
+## Como executar
+
+```bash
+python sistema_de_auditoria.py
+```
+
+## Exemplo de saída
+
+```
+=============================================
+INICIANDO AUDITORIA FINANCEIRA
+Função auditada: calcular_orcamento
+Setores ignorados: RH, Marketing
+Parâmetros extras: {'moeda_destino': 'BRL', 'taxa_cambio': 5.2}
+Departamento ignorado: RH
+Departamento ignorado: Marketing
+
+Total em USD: 225,000.00
+Moeda destino: BRL
+Taxa de câmbio aplicada: 5.2
+Tempo de execução: 0.048 ms
+AUDITORIA CONCLUÍDA
+=============================================
+
+Orçamento total convertido: 1,170,000.00 BRL
+```
+
+[⬅ Voltar ao portfólio](../)
