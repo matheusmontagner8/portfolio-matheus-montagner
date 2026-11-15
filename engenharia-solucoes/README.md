@@ -1,59 +1,29 @@
-# 🛡️ Sistema de Auditoria de Vendas e Fluxo de Triagem (Saúde Pública)
+# Fluxograma de Triagem em Unidade de Saúde
 
-## 📝 Descrição do Projeto
-Este repositório contém o desenvolvimento de um algoritmo de auditoria de dados financeiros e a modelagem lógica de um sistema de triagem para unidades de saúde. O projeto une a precisão da programação em **Python** com a estruturação de processos decisórios complexos (fluxogramas).
+Exercício da disciplina de Programação de Computadores (Análise e Desenvolvimento de Sistemas, Unicid), com o tema Saúde Pública: representar, com **fluxograma e pseudocódigo**, o atendimento de um paciente desde a chegada até a alta.
 
-O motor de auditoria processa volumes de vendas, calcula médias e aplica regras de segurança dinâmicas para mitigar riscos operacionais e identificar anomalias, como sistemas em "quarentena" ou necessidade de "revisão manual". Paralelamente, o projeto documenta o pipeline de atendimento ao paciente, desde a triagem inicial baseada em sinais vitais até o diagnóstico e alta.
+## Lógica do atendimento
 
-> **Status do Projeto:** Desenvolvido como parte de estudos em lógica de programação e arquitetura de sistemas (2024).
+1. O paciente chega e passa pela **triagem**: febre, pressão alta, frequência cardíaca alterada ou outros sinais graves.
+2. **Se algum sinal grave estiver presente:** atendimento imediato, pedido de exames e início do tratamento. Se for preciso, o paciente é internado e, depois, recebe alta.
+3. **Se não houver sinal grave:** o paciente aguarda na fila, passa pela consulta médica, recebe diagnóstico e orientações e tem alta.
 
----
+## Fluxograma
 
-## 🚀 Tecnologias Utilizadas
-* **Linguagem:** Python 3.10
-* **Ambiente de Desenvolvimento:** Google Colab / Jupyter Notebook
-* **Paradigma:** Programação Estruturada e Lógica Booleana
-* **Documentação Técnica:** Fluxogramas de processos (saúde pública)
+<img src="triagem-fluxograma.jpg" width="420" alt="Fluxograma de triagem: início, triagem, decisão por sinais graves, atendimento imediato ou fila de espera, internação e alta">
 
----
+## Pseudocódigo
 
-## 📊 Funcionalidades e Regras de Negócio
+<img src="triagem-pseudocodigo.jpg" width="420" alt="Pseudocódigo da triagem escrito à mão">
 
-### 💰 Algoritmo de Auditoria
-O sistema avalia a média de três vendas consecutivas contra um limite de segurança variável:
-* **Limite Liberado:** Média dentro do teto estipulado pelo gerente.
-* **Sistema em Quarentena:** Média superior ao limite de segurança.
-* **Revisão Manual:** Média 5x superior ao limite (alerta de risco crítico).
+## Revisão do fluxo (Passo 4)
 
-### 🏥 Fluxo de Triagem (Sinais Vitais)
-Baseado nos documentos anexos, o sistema de triagem segue a lógica:
-1.  **Entrada:** Verificação de Febre, Pressão, Frequência Cardíaca e outros sinais graves.
-2.  **Decisão:** Casos graves recebem atendimento imediato e possível internação. Casos não graves seguem para fila de espera e consulta de rotina.
+<img src="triagem-perguntas.jpg" width="420" alt="Anotações do passo 4 com perguntas de revisão do fluxo">
 
----
+## Conceitos praticados
 
-## 📊 Resultados e Aprendizados
-O projeto demonstrou eficácia na automação de verificações que antes seriam manuais:
-* **Validação de Dados:** Implementação de conversão para `float` e tratamento de tipos primitivos para cálculos precisos.
-* **Escopo Global:** Uso da instrução `global` em Python para permitir que funções de gerência alterem constantes do sistema em tempo de execução.
-* **Modelagem de Processos:** Tradução de necessidades do mundo real (triagem hospitalar) em algoritmos lógicos e visuais.
+- Decomposição de um processo real em etapas
+- Estruturas de decisão (`se ... então ... senão`) e condições com `ou`
+- Representação do mesmo algoritmo em fluxograma e em pseudocódigo
 
----
-
-## 🔧 Como Executar
-
-1.  **Pré-requisitos:** Ter o Python 3.10 instalado ou uma conta no Google Colab.
-2.  **Execução:**
-    * Abra o arquivo `projeto-algoritmo-de-auditoria-de-dados.ipynb`.
-    * Execute a célula principal.
-    * Insira os valores das vendas e o limite de segurança conforme solicitado pelo prompt.
-3.  **Interação:** O sistema retornará o status da auditoria e o relatório de tipos de dados processados.
-
----
-
-## 📁 Estrutura de Arquivos
-* `projeto-algoritmo-de-auditoria-de-dados.ipynb`: Código-fonte com a lógica de auditoria.
-* `Fluxograma_Saude_Publica.jpg`: Representação visual do fluxo de triagem e atendimento.
-
----
-[Voltar ao início](https://github.com/seu-usuario)
+[⬅ Voltar ao portfólio](../)
