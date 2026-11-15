@@ -1,53 +1,42 @@
-# 💸 Sistema de Caixa e Decomposição de Troco
+# Sistema de Caixa: Troco com Menos Cédulas
 
-## 📝 Descrição do Projeto
-Este projeto consiste em um algoritmo de automação para PDV (Ponto de Venda), focado na lógica de validação de pagamentos e cálculo otimizado de troco. O objetivo principal é garantir que a devolução de valores seja feita utilizando o menor número possível de cédulas, mitigando erros humanos e agilizando o atendimento.
+Exercício de **modularização** da disciplina de Programação de Computadores (Análise e Desenvolvimento de Sistemas, Unicid), que divide o trabalho em dois papéis: o "Aluno A" define a visão geral do sistema em módulos, e o "Aluno B" detalha esses módulos em fluxograma e pseudocódigo.
 
-O sistema processa o valor total da compra e o valor entregue pelo cliente, validando a suficiência do pagamento antes de prosseguir para a decomposição aritmética do troco em notas de R$ 100, 50, 10, 5 e 1.
+## O problema
 
-![Fluxograma do Processo](1000151272.jpg)
-*Figura 1: Fluxograma lógico da validação e cálculo de troco.*
+Um caixa recebe o valor da compra e o valor pago pelo cliente. Ele deve:
 
-## 🚀 Lógica de Funcionamento
-O algoritmo foi estruturado seguindo as melhores práticas de lógica de programação, dividindo-se em quatro etapas principais:
+1. validar se o pagamento é suficiente e, se não for, encerrar com uma mensagem;
+2. calcular o troco (`troco = valor pago - valor da compra`);
+3. decompor o troco no **menor número de cédulas** de R$ 100, 50, 10, 5 e 1;
+4. mostrar quantas cédulas de cada valor devem ser entregues.
 
-1.  **Entrada e Validação:** Leitura dos valores de compra e pagamento, com verificação de "Valor Insuficiente".
-2.  **Cálculo de Diferença:** Determinação do valor líquido a ser devolvido (`troco = pago - total`).
-3.  **Decomposição Aritmética:** Utilização de operadores de divisão inteira (`Div`) e resto (`Mod`) para calcular a quantidade exata de cada cédula.
-4.  **Saída de Dados:** Exibição detalhada das notas a serem devolvidas ao usuário.
+## Visão geral em módulos (Aluno A)
 
-## 📊 Estrutura Técnica
-*   **Paradigma:** Lógica de Programação e Fluxogramação.
-*   **Operadores Chave:** `Div` (quociente) e `Mod` (resto da divisão).Aqui está o README estruturado para o seu projeto de sistema de caixa e cálculo de troco, baseado no pseudocódigo e nos fluxogramas fornecidos:
-```markdown
-# 💸 Sistema de Caixa e Decomposição de Troco
+<img src="troco-visao-macro-aluno-a.jpg" width="380" alt="Visão macro do sistema de caixa dividida em módulos, escrita à mão">
 
-## 📝 Descrição do Projeto
-Este projeto consiste em um algoritmo de automação para PDV (Ponto de Venda), focado na lógica de validação de pagamentos e cálculo otimizado de troco. O objetivo principal é garantir que a devolução de valores seja feita utilizando o menor número possível de cédulas, mitigando erros humanos e agilizando o atendimento.
+## Fluxograma (Aluno B)
 
-O sistema processa o valor total da compra e o valor entregue pelo cliente, validando a suficiência do pagamento antes de prosseguir para a decomposição aritmética do troco em notas de R$ 100, 50, 10, 5 e 1.
+<img src="troco-fluxograma-aluno-b.jpg" width="380" alt="Fluxograma do cálculo de troco">
 
-![Fluxograma do Processo](1000151272.jpg)
-*Figura 1: Fluxograma lógico da validação e cálculo de troco.*
+## Pseudocódigo (Aluno B)
 
-## 🚀 Lógica de Funcionamento
-O algoritmo foi estruturado seguindo as melhores práticas de lógica de programação, dividindo-se em quatro etapas principais:
+<img src="troco-pseudocodigo-parte-1.jpg" width="380" alt="Pseudocódigo do troco, parte 1"> <img src="troco-pseudocodigo-parte-2.jpg" width="380" alt="Pseudocódigo do troco, parte 2">
 
-1.  **Entrada e Validação:** Leitura dos valores de compra e pagamento, com verificação de "Valor Insuficiente".
-2.  **Cálculo de Diferença:** Determinação do valor líquido a ser devolvido (`troco = pago - total`).
-3.  **Decomposição Aritmética:** Utilização de operadores de divisão inteira (`Div`) e resto (`Mod`) para calcular a quantidade exata de cada cédula.
-4.  **Saída de Dados:** Exibição detalhada das notas a serem devolvidas ao usuário.
-
-## 📊 Estrutura Técnica
-*   **Paradigma:** Lógica de Programação e Fluxogramação.
-*   **Operadores Chave:** `Div` (quociente) e `Mod` (resto da divisão).
-*   **Cédulas Suportadas:** R$ 100, R$ 50, R$ 10, R$ 5 e R$ 1.
-
-## 🔧 Exemplo de Fluxo (Pseudocódigo)
-O núcleo do sistema utiliza a seguinte lógica para decomposição:
+O núcleo da decomposição usa divisão inteira (`Div`) e resto (`Mod`):
 
 ```pascal
-// Exemplo para notas de 100
 nota100 <- resto Div 100
-resto <- resto Mod 100
-// Repete-se para as demais notas (50, 10, 5, 1)
+resto   <- resto Mod 100
+nota50  <- resto Div 50
+resto   <- resto Mod 50
+// e assim por diante para 10, 5 e 1
+```
+
+## Conceitos praticados
+
+- Modularização: dividir um problema em partes menores e independentes
+- Validação de entrada antes do processamento
+- Operadores `Div` (quociente) e `Mod` (resto)
+
+[⬅ Voltar ao portfólio](../)
