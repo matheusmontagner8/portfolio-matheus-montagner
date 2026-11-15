@@ -2,7 +2,7 @@
 
 # Matheus Montagner
 
-**Estudante de Análise e Desenvolvimento de Sistemas — Universidade Cidade de São Paulo (Unicid)**
+**Programador Trainee em sistemas ERP · Estudante de Análise e Desenvolvimento de Sistemas (Unicid)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-montagner-97ba8b214/)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheusmontagner8@gmail.com)
@@ -14,54 +14,83 @@
 
 ## Sobre mim
 
-Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas na Unicid. Sou apaixonado por resolver problemas através da tecnologia, com foco em software ERP e interface de usuário.
+Desde maio de 2025 sou **Programador Trainee na Rhema Assessoria Empresarial e Sistemas**, onde desenvolvo e mantenho um sistema ERP usado por empresas do ramo de autopeças, com **VB.NET** (Windows Forms) e **Caché/ObjectScript**: telas de cadastro e consulta, regras de negócio e relatórios.
 
-- **Habilidades técnicas:** VB.NET, Caché e Power BI
-- **Habilidades socioemocionais:** trabalho em equipe, comunicação assertiva e pensamento crítico
-- **Experiência:** atuo na Rhema Assessoria Empresarial e Sistemas Ltda, atendendo empresas do ramo de autopeças
+Antes da tecnologia, trabalhei em vendas e na área administrativa. Essa experiência me ajuda a entender as dificuldades de quem usa o sistema no dia a dia. Curso Análise e Desenvolvimento de Sistemas na Unicid (previsão de conclusão: dez/2027) e estudo análise de dados com Power BI, SQL e Python.
 
 ---
 
-## Ferramentas e Tecnologias
+## Tecnologias
 
-**Linguagens e ambientes**
+**Trabalho:**
+![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Caché ObjectScript](https://img.shields.io/badge/Caché%20ObjectScript-333333?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
+**Estudos e projetos:**
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 
-**Dados e BI**
-
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-**Inteligência artificial**
-
-![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
+**Ferramentas:**
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9A825?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
 ---
 
-## Portfólio de Projetos
+## Projetos em destaque
 
-### Programação de Computadores
+### 🎮 [ColorBitz](https://github.com/matheusmontagner8/colorbitz): jogo de puzzle para Android
 
-| Projeto | Descrição | Link |
+<p>
+  <img src="https://raw.githubusercontent.com/matheusmontagner8/colorbitz/main/docs/menu.png" width="150" alt="Menu do ColorBitz">
+  <img src="https://raw.githubusercontent.com/matheusmontagner8/colorbitz/main/docs/bomb.png" width="150" alt="Bomba criada após um grupo grande">
+  <img src="https://raw.githubusercontent.com/matheusmontagner8/colorbitz/main/docs/levels.png" width="150" alt="Seleção de fases">
+</p>
+
+Puzzle com visual neon feito em **Godot 4 + GDScript**. Tem 60 fases, modo infinito, fase diária, conquistas e versões em português e inglês.
+**Testes automatizados** rodam no GitHub Actions a cada envio de código.
+
+### 🏥 [Triage Trio Plus](https://github.com/matheusmontagner8/triage-trio-plus): sistema de triagem de pronto-socorro
+
+Sistema web para recepção, triagem de enfermagem (classificação de risco pelo Protocolo de Manchester) e atendimento médico, com painel de acompanhamento.
+**React + TypeScript + Supabase**. Construído com o Lovable (IA) como projeto de engenharia de prompt.
+
+### 🗄️ [Modelagem de Dados](https://github.com/matheusmontagner8/Modelagem-de-Dados): banco de dados para uma empresa real *(em grupo)*
+
+Levantamento de requisitos com visita e entrevista em uma fábrica de bolsas, seguido de **modelo conceitual (DER), modelo lógico, dicionário de dados e script SQL**.
+
+### 🐾 [Site Patinhas do Bem](https://github.com/Lusca2803/projeto-site-patinhas-do-bem): site institucional de ONG *(em grupo)*
+
+Site de 4 páginas com **HTML5 semântico, CSS3 (Flexbox, layout responsivo) e JavaScript** (validação de formulário e conteúdo que abre e fecha).
+
+### 🔗 [Achadinhos Mais](https://github.com/matheusmontagner8/achadinhos-linktree): página de links
+
+Página única no estilo Linktree, em **HTML e CSS puros**, responsiva e sem dependências.
+
+---
+
+## Exercícios acadêmicos: Programação de Computadores (Unicid)
+
+| Exercício | O que faz | O que pratiquei |
 | --- | --- | --- |
-| **Algoritmo de Auditoria de Dados** | Programa que analisa a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver projeto](./projeto-algoritmo-de-auditoria-de-dados/) |
-| **Engenharia de Soluções Lógicas** | Solução algorítmica para um problema complexo do mundo real, partindo da abstração visual até a validação lógica. | [Ver projeto](./engenharia-solucoes/) |
-| **Modularização** | Aplicação prática dos conceitos de modularização de código. | [Ver projeto](./modularizacao/) |
-| **Traduzindo Lógica para Python** | Escrita do código equivalente em Python, garantindo o uso correto de tipos de dados, estruturas de repetição e condicionais. | [Ver projeto](./traduzindo-logica-python/) |
-| **Engenharia de Contexto e Lógica Física** | Aplicação dos conceitos de listas, estruturas de repetição (`for`, `while`), estruturas de decisão (`if/else`, `match-case`), funções e operadores complexos na resolução de problemas do mundo real, com coleta de dados manual e mapeamento espacial. | [Ver projeto](./engenharia-contexto/) |
-| **Desenhando Emojis com Dados** | Criação de um emoji de 5x5 pixels a partir de dados estruturados. | [Ver projeto](./desenhando-emojis/) |
-| **Sistema de Auditoria de Recursos Corporativos** | Script em Python que calcula o orçamento total da empresa, aplicando regras estritas de auditoria e flexibilidade de parâmetros. | [Ver projeto](./projeto-sistema-de-auditoria/) |
+| [Auditoria de vendas](./projeto-algoritmo-de-auditoria-de-dados/) | Calcula a média de três vendas e compara com um limite definido pelo gerente | `float`, `global`, `if/elif`, `try/except` |
+| [Orçamento corporativo](./projeto-sistema-de-auditoria/) | Soma o orçamento de uma empresa em dicionários aninhados, ignorando setores e convertendo moeda | recursão, decorators, `*args` e `**kwargs` |
+| [Qualidade do ar e simulador de evacuação](./engenharia-contexto/) | Classifica dados de qualidade do ar coletados em três locais e traz um jogo de texto de fuga | listas, `match-case`, `while`, `if` aninhado |
+| [Pixel art com matrizes RGB](./desenhando-emojis/) | Escurece as cores de um emoji 5x5 e mostra o antes e o depois | dicionários, tuplas, laços aninhados, Matplotlib |
+| [Exercícios de laços e condicionais](./traduzindo-logica-python/) | Quatro programas: compras com desconto, clima da semana, notas da turma e poupança | `for`, acumuladores, condicionais |
+| [Fluxograma de triagem](./engenharia-solucoes/) | Fluxograma e pseudocódigo do atendimento em uma unidade de saúde | lógica de decisão, fluxogramas |
+| [Troco com menos cédulas](./modularizacao/) | Fluxograma e pseudocódigo de um caixa que calcula o troco, divididos em módulos | modularização, `Div` e `Mod` |
 
 ---
 
 <div align="center">
 
-Feito por **Matheus Montagner** — [LinkedIn](https://www.linkedin.com/in/matheus-montagner-97ba8b214/) · [E-mail](mailto:matheusmontagner8@gmail.com)
+Feito por **Matheus Montagner**: [LinkedIn](https://www.linkedin.com/in/matheus-montagner-97ba8b214/) · [E-mail](mailto:matheusmontagner8@gmail.com)
 
 </div>
