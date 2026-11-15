@@ -55,6 +55,8 @@ Antes da tecnologia, trabalhei em vendas e na área administrativa. Essa experi�
 
 Puzzle com visual neon feito em **Godot 4 + GDScript**. Tem 60 fases, modo infinito, fase diária, conquistas e versões em português e inglês.
 **Testes automatizados** rodam no GitHub Actions a cada envio de código.
+Desenvolvido com apoio do Claude Code (IA); as regras do jogo, o equilíbrio das fases e os testes no celular foram decisões e trabalho meus.
+
 
 ### 🏥 [Triage Trio Plus](https://github.com/matheusmontagner8/triage-trio-plus): sistema de triagem de pronto-socorro
 
