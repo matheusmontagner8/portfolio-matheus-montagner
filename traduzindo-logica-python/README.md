@@ -1,39 +1,26 @@
-# 🛡️ Algoritmo de Auditoria e Segurança de Transações
+# Exercícios de Laços e Condicionais (Python)
 
-## 📝 Descrição do Projeto
-Este projeto consiste em um sistema de auditoria automatizada desenvolvido para monitorar fluxos de vendas e garantir a conformidade com diretrizes de segurança financeira. O algoritmo atua como uma camada de controle, processando transações recentes e validando-as contra limites dinâmicos estabelecidos pela gestão.
+Exercício da disciplina de Programação de Computadores (Análise e Desenvolvimento de Sistemas, Unicid): traduzir lógica de programação para Python.
 
-O objetivo principal é identificar desvios operacionais e classificar o status do sistema em tempo real, permitindo a interrupção de fluxos suspeitos e a mitigação de riscos financeiros através de estados de "Quarentena" ou "Revisão Manual".
+O notebook [`Exercício.ipynb`](./Exercício.ipynb) tem quatro programas:
 
+| Função | O que faz |
+| --- | --- |
+| `processar_vendas()` | Lê vários produtos (nome, preço e quantidade), descarta itens com valores inválidos, soma o total e aplica desconto de 5% (acima de R$ 200) ou 10% (acima de R$ 500) |
+| `analisar_clima()` | Lê a temperatura de 7 dias, calcula a média, conta os dias acima de 35 °C e avisa se houver temperatura extrema |
+| `sistema_notas_turma()` | Lê duas notas de cada aluno e informa se foi aprovado (média 7 ou mais), está em recuperação (5 ou mais) ou foi reprovado |
+| `simulador_poupanca()` | Simula mês a mês um investimento com aportes e juros e avisa quando o saldo passa de R$ 10.000 |
 
+## Conceitos praticados
 
-## 🚀 Tecnologias Utilizadas
-* **Linguagem:** Python 3.10
-* **Conceitos Aplicados:** Manipulação de tipos primitivos (float), escopo global de variáveis, estruturas condicionais compostas e lógica de tomada de decisão.
-* **Ferramentas:** Google Colab, Jupyter Notebook.
+- Laço `for` com `range()`
+- Acumuladores (`total += valor`) e contadores
+- Condicionais `if / elif / else` e operadores lógicos (`or`)
+- Conversão de entrada com `int()` e `float()`
+- Funções
 
-## 📊 Regras de Negócio e Estados do Sistema
-O algoritmo avalia a média aritmética de vendas consecutivas e aplica a seguinte lógica de auditoria:
+## Como executar
 
-* **Liberação Padrão:** Média de vendas dentro do limite de segurança definido.
-* **Sistema em Quarentena:** Ativado quando a média excede o limite permitido, sinalizando necessidade de atenção.
-* **Revisão Manual (Crítica):** Ativada quando a média excede em 5x o limite de segurança, bloqueando processos para inspeção humana.
+Abra o notebook no [Google Colab](https://colab.research.google.com/) (Arquivo → Fazer upload de notebook) ou no Jupyter e execute cada célula.
 
-
-
-## 📊 Resultados e Aprendizados
-O desenvolvimento deste script permitiu o aprofundamento em técnicas de controle de fluxo e integridade de dados:
-* **Escopo Dinâmico:** Implementação de funções que permitem a atualização do limite de segurança em tempo de execução via input gerencial.
-* **Tratamento de Dados:** Validação de inputs numéricos para garantir a precisão dos cálculos de média final.
-* **Classificação de Status:** Desenvolvimento de uma matriz de decisão para categorizar a saúde da operação financeira.
-
-## 🔧 Como Executar
-1. Acesse o projeto via **Google Colab** ou clone o repositório.
-2. Execute o script principal.
-3. Insira os valores das vendas solicitados pelo terminal.
-4. Defina o limite de segurança conforme orientado pelo sistema.
-5. Visualize o relatório final com a média das vendas, o status da auditoria e o tipo de dado processado.
-
----
-**Desenvolvido como projeto prático de Lógica de Programação e Auditoria de Dados.**
-
+[⬅ Voltar ao portfólio](../)
