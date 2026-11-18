@@ -67,6 +67,10 @@ Sistema web para recepção, triagem de enfermagem (classificação de risco pel
 
 Levantamento de requisitos com visita e entrevista em uma fábrica de bolsas, seguido de **modelo conceitual (DER), modelo lógico, dicionário de dados e script SQL**.
 
+### 📊 [Análise de vendas em SQL](https://github.com/matheusmontagner8/sql-vendas-autopecas): distribuidora de autopeças fictícia
+
+Banco em **SQLite** com 1.560 pedidos fictícios e **11 perguntas de negócio** respondidas com CTEs, funções de janela (`LAG`, `RANK`, `NTILE`), curva ABC e segmentação RFM. Testado automaticamente no GitHub Actions.
+
 ### 🐾 [Site Patinhas do Bem](https://github.com/Lusca2803/projeto-site-patinhas-do-bem): site institucional de ONG *(em grupo)*
 
 Site de 4 páginas com **HTML5 semântico, CSS3 (Flexbox, layout responsivo) e JavaScript** (validação de formulário e conteúdo que abre e fecha).
