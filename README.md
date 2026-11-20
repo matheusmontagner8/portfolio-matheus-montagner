@@ -16,7 +16,8 @@
 
 Desde maio de 2025 sou **Programador Trainee na Rhema Assessoria Empresarial e Sistemas**, onde desenvolvo e mantenho um sistema ERP usado por empresas do ramo de autopeças, com **VB.NET** (Windows Forms) e **Caché/ObjectScript**: telas de cadastro e consulta, regras de negócio e relatórios.
 
-Antes da tecnologia, trabalhei em vendas e na área administrativa. Essa experiência me ajuda a entender as dificuldades de quem usa o sistema no dia a dia. Curso Análise e Desenvolvimento de Sistemas na Unicid (previsão de conclusão: dez/2027) e estudo análise de dados com Power BI, SQL e Python.
+Antes da tecnologia, trabalhei em vendas e na área administrativa. Essa experiência me ajuda a entender as dificuldades de quem usa o sistema no dia a dia. Curso Análise e Desenvolvimento de Sistemas na Unicid (previsão de conclusão: dez/2027) e estudo análise de dados com Power BI, SQL e Python. Além disso estudo HTML, CSS e JavaScript.
+
 
 ---
 
